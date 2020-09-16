@@ -26,17 +26,17 @@
                 <div class="form-group">
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" class="form-control" 
-                    placeholder="Informe o seu e-mail" autofocus>
+                        value = "<?= $email?> "placeholder="Informe o seu e-mail" autofocus>
                 </div>
                 <div class="form-group">
                     <label for="password">Senha</label>
-                    <input type="password" id="password" name="password" class="form-control" 
-                    placeholder="Informe a sua senha">
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="Informe a sua senha">
                 </div>
-                
+
             </div>
             <div class="card-footer">
-                    <button class="btn btn-lg btn-primary">Entrar</button>
+                <button class="btn btn-lg btn-primary">Entrar</button>
             </div>
 
         </div>
